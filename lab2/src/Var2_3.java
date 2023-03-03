@@ -14,7 +14,6 @@ public class Var2_3 {
             }
         }
 
-        // find the length of the longest increasing or decreasing sequence of elements in each row
         int longestIncreasing = 1;
         int longestDecreasing = 1;
         for (int i = 0; i < n; i++) {
@@ -40,13 +39,11 @@ public class Var2_3 {
             }
         }
 
-        // output the results
         System.out.println("Matrix:");
         PrintMatrix(a);
         System.out.println("Longest increasing sequence length: " + longestIncreasing);
         System.out.println("Longest decreasing sequence length: " + longestDecreasing);
 
-        // close the scanner
         scanner.close();
     }
 

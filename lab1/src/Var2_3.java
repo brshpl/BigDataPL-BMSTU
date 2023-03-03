@@ -20,7 +20,6 @@ public class Var2_3 {
             }
         }
 
-        // close the scanner
         scanner.close();
     }
 }
